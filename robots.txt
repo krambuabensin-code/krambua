@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xn--krambua-sknevik-qlb.no/sitemap.xml
