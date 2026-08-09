@@ -104,9 +104,9 @@
   nav.primary-nav{
     max-width: 1080px;
     margin: 0 auto;
-    padding: 0 1.1rem 0.7rem;
+    padding: 0.2rem 1.1rem 0.85rem;
     display: flex;
-    gap: 0.4rem;
+    gap: 0.5rem;
     overflow-x: auto;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -117,30 +117,34 @@
     flex: 0 0 auto;
     font-family: 'Work Sans', sans-serif;
     font-size: 0.78rem;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
-    color: var(--ink-soft);
+    letter-spacing: 0.03em;
+    color: var(--ink);
     text-decoration: none;
-    background: none;
-    border: none;
-    padding: 0.3rem 0.15rem;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.45rem 0.85rem;
     cursor: pointer;
-    border-bottom: 2px solid transparent;
     white-space: nowrap;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   }
   nav.primary-nav a:hover, nav.primary-nav a:focus-visible,
   nav.primary-nav button:hover, nav.primary-nav button:focus-visible{
-    color: var(--red-deep);
-    border-bottom-color: var(--red);
+    color: #fff;
+    background: var(--red);
+    border-color: var(--red);
     outline: none;
   }
   nav.primary-nav button.nav-allergens{
     color: var(--mustard);
+    border-color: var(--mustard);
   }
   nav.primary-nav button.nav-allergens:hover, nav.primary-nav button.nav-allergens:focus-visible{
-    color: var(--mustard);
-    border-bottom-color: var(--mustard);
+    color: #fff;
+    background: var(--mustard);
+    border-color: var(--mustard);
   }
 
   /* ---------- Hero ---------- */
@@ -713,6 +717,9 @@
   <p class="map-link">
     <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x463c0af2f459d41f:0xad019fd66690f3?sa=X&amp;ved=1t:8290&amp;ictx=111" target="_blank" rel="noopener">Strondavegen 2694, 5593 Skånevik</a>
   </p>
+  <p class="map-link">
+    <a href="https://www.facebook.com/share/191dtpgJx7/?mibextid=wwXIfr" target="_blank" rel="noopener" data-i18n="fbLink">Krambua på Facebook</a>
+  </p>
 </footer>
 
 <script>
@@ -771,6 +778,7 @@
       footerFine: "Denne sida syner berre utvalet vårt og prisane – bestilling skjer på telefon, eller ved å stikke innom disken.",
       hoursLine: "Ope 9–21 alle dagar",
       limitedFoodNote: "Avgrensa matsal etter kl. 20:30",
+      fbLink: "Krambua på Facebook",
       introAllergens: "Tabellen viser kva allergen kvar matvare inneheld. Er du usikker eller har du sterke allergiar, spør oss gjerne i disken – me hjelper deg å finne noko trygt.",
       legendYes: "inneheld allergenet",
       legendWarn: "kan innehalde spor av allergenet",
@@ -830,6 +838,7 @@
       footerFine: "This page only shows our menu and prices – orders are placed by phone or in person at the counter.",
       hoursLine: "Open 9am–9pm every day",
       limitedFoodNote: "Limited food menu after 8:30pm",
+      fbLink: "Krambua on Facebook",
       introAllergens: "The table shows which allergens each item contains. If you're unsure or have a severe allergy, just ask us at the counter – we'll help you find something safe.",
       legendYes: "contains the allergen",
       legendWarn: "may contain traces of the allergen",
@@ -889,6 +898,7 @@
       footerFine: "Diese Seite zeigt nur unser Angebot und die Preise – bestellt wird telefonisch oder direkt an der Theke.",
       hoursLine: "Geöffnet 9–21 Uhr, jeden Tag",
       limitedFoodNote: "Eingeschränktes Speisenangebot nach 20:30 Uhr",
+      fbLink: "Krambua auf Facebook",
       introAllergens: "Die Tabelle zeigt, welche Allergene in jedem Gericht enthalten sind. Bist du unsicher oder hast eine starke Allergie, frag uns einfach an der Theke – wir helfen dir, etwas Sicheres zu finden.",
       legendYes: "enthält das Allergen",
       legendWarn: "kann Spuren des Allergens enthalten",
@@ -948,6 +958,7 @@
       footerFine: "Cette page présente uniquement notre offre et nos prix – les commandes se font par téléphone ou directement au comptoir.",
       hoursLine: "Ouvert de 9h à 21h tous les jours",
       limitedFoodNote: "Offre de repas limitée après 20h30",
+      fbLink: "Krambua sur Facebook",
       introAllergens: "Le tableau indique les allergènes contenus dans chaque plat. En cas de doute ou d'allergie sévère, demandez-nous simplement au comptoir – nous vous aiderons à trouver une option sûre.",
       legendYes: "contient l'allergène",
       legendWarn: "peut contenir des traces de l'allergène",
@@ -1007,6 +1018,7 @@
       footerFine: "Questa pagina mostra solo la nostra offerta e i prezzi – gli ordini si fanno per telefono o direttamente al bancone.",
       hoursLine: "Aperto 9–21 tutti i giorni",
       limitedFoodNote: "Offerta di cibo limitata dopo le 20:30",
+      fbLink: "Krambua su Facebook",
       introAllergens: "La tabella mostra quali allergeni contiene ogni piatto. Se non sei sicuro o hai un'allergia grave, chiedi pure al bancone – ti aiuteremo a trovare qualcosa di sicuro.",
       legendYes: "contiene l'allergene",
       legendWarn: "può contenere tracce dell'allergene",
