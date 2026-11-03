@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /admin/
 
 Sitemap: https://xn--krambua-sknevik-qlb.no/sitemap.xml
