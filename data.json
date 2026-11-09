@@ -356,13 +356,17 @@
         },
         {
           "name": {
-            "nn": "Minipizza",
+            "nn": "-NYHEIT- Pizza slice",
             "en": "Mini pizza",
             "de": "Minipizza",
             "fr": "Mini-pizza",
             "it": "Mini pizza"
           },
-          "price": 39
+          "price": 35,
+          "withDrink": 75,
+          "note": {
+            "nn": "Eit smakfullt pizzastykke. Vel mellom pepperoni og biff."
+          }
         }
       ]
     }
