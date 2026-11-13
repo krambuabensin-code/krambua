@@ -379,6 +379,13 @@
       "old": "",
       "price": "35,-",
       "valid": "Heile november"
+    },
+    {
+      "name": "Hamburger 160g",
+      "desc": "🍔 Svolten? Me har burgeren! 🤩\nSaftig hamburger på 160 g til kun 109,- 🔥",
+      "old": "145,-",
+      "price": "109,-",
+      "valid": "Fredag - sundag"
     }
   ],
   "event": null,
