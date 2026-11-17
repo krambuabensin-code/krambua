@@ -211,7 +211,7 @@
             "it": "Piadina kebab"
           },
           "price": 149,
-          "withDrink": 189,
+          "withDrink": 193,
           "note": {
             "nn": "Vel mellom mix kjøtt eller kylling shawarma",
             "en": "Choose between mixed meat or chicken shawarma",
@@ -229,7 +229,7 @@
             "it": "Straccetti di manzo saltati"
           },
           "price": 215,
-          "withDrink": 255
+          "withDrink": 259
         },
         {
           "name": {
@@ -240,7 +240,7 @@
             "it": "Piatto di manzo in padella"
           },
           "price": 195,
-          "withDrink": 235
+          "withDrink": 239
         },
         {
           "name": {
@@ -251,7 +251,7 @@
             "it": "Piatto kebab"
           },
           "price": 189,
-          "withDrink": 229,
+          "withDrink": 233,
           "note": {
             "nn": "Vel mellom mix kjøtt eller kylling shawarma",
             "en": "Choose between mixed meat or chicken shawarma",
